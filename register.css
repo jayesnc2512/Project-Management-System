@@ -1,0 +1,121 @@
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat',sans-serif;
+    
+  }  
+  .container { 
+      padding: 50px;  
+      background-color:#40b3f6;
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px 8px 10px #646464;
+      width: 50%;
+      margin: auto;
+      color: #31008d;
+
+  }  
+    
+  input[type=text], input[type=password], input[type=number] {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background-color: #fff; 
+    opacity: 100%; 
+  }  
+ 
+  input[type=text]:focus, input[type=password]:focus ,input[type=number]:focus {  
+    background-color: #fff;  
+    outline: none;  
+    opacity: 100%;
+  }  
+   div {  
+              padding: 10px 0;  
+           }  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+  }  
+  .registerbtn {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+  }  
+  .registerbtn:hover {  
+    opacity: 1;  
+  } 
+  .navigation-bar{
+    margin:0 20%;
+}
+
+nav{
+    background:transparent;
+
+}
+.brand-name{
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    color: #31008d;
+}
+.brand-name:hover{
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    color: #ca97f4;
+}
+.nav-item{
+    padding: 0 0.75rem;
+}
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.title-page{
+    background-color: #e6e7fe;
+}
+.title{
+    padding: 20% 25% 19% 20%;
+    margin:0;
+    width: 20%;
+    font-family: 'Teko', sans-serif;
+    color: #40b3f6;
+    text-align: "left";
+    font-size: 100px;
+    text-shadow: 2px 2px #48249a;
+}
+
+.student-creds{
+    width:15rem;
+    background-color: #e6e7fe;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #40b3f6;
+}
+@media (max-width:900px) {
+    .nav-menu{
+        background-color: #40b3f6;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-left: 20px;
+        color: white;
+        border-radius: 2%;
+    }
+    .brand-name{
+        opacity: 90%;
+    }
+    
+}
+@media (max-width:500px) {
+  .container{
+    width:100%;
+  }
+  
+}
