@@ -1,75 +1,14 @@
-.navigation-bar{
-  margin:0 20%;
-}
-
-nav{
-  background:#40b3f6;
-  top: 0;
-
-}
-.brand-name{
-  font-size: 50px;
-  font-family: 'DM Serif Display', serif;
-  color: #ca97f4;
-}
-
-.nav-item{
-  padding: 0 0.75rem;
-}
-.nav-menu{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-}
-.title-page{
-  background-color: #e6e7fe;
-}
-.title{
-  padding: 20% 25% 19% 20%;
-  margin:0;
-  width: 20%;
-  font-family: 'Teko', sans-serif;
-  color: #40b3f6;
-  text-align: "left";
-  font-size: 100px;
-  text-shadow: 2px 2px #48249a;
-}
-/* C:\xampp\htdocs\23-1submit */
-.student-creds{
-  width:15rem;
-  background-color: #e6e7fe;
-}
-
-.navbar{
-  width: 100%;
-  position: fixed;
-}
-@media (max-width:900px) {
-  .nav-menu{
-      background-color: #40b3f6;
-      font-size: 20px;
-      font-weight: bolder;
-      padding-left: 20px;
-      color: white;
-      border-radius: 2%;
-  }
-  .brand-name{
-      opacity: 90%;
-  }
-  
-}
 body{
   font-family: 'Montserrat', sans-serif;
 }
-/* .bg{
+.bg{
 position: absolute;
 width: 100%;
-} */
+}
 .heading{
   background-color: #40b3f6;
   width: 100%;
-  padding-bottom: 0.3rem;
-  margin-top:5% ;
-
+  padding-bottom: 1rem;
 }
 .student-roll{
   background-color: white;
@@ -78,7 +17,6 @@ width: 100%;
   border-style:solid;
   margin:0 2rem 1rem 0rem;
   color: black;
-  text-align: center;
 }
 .student-name{
   background-color: white;
@@ -87,7 +25,6 @@ width: 100%;
   border-style: solid;
   margin:0 2rem 1rem 0rem;
   color: black;
-  text-align:left;
 }
 .group-key{
   margin:0 15%;
@@ -99,7 +36,7 @@ width: 100%;
   padding: 1rem 1rem 1rem;
   margin:2rem 2rem 2rem 0rem;
   font-weight:900;
-  /* position: relative; */
+  position: relative;
   
 }
 @media (min-width:1200px) {
@@ -111,7 +48,7 @@ width: 100%;
       height: 11rem;
       position: absolute;
       left: 60%;
-      margin: 17rem 0;
+      margin: 8rem 0;
       margin-right: 10%;
       top: 0;
     }
@@ -120,7 +57,7 @@ width: 100%;
   border-left: 6px solid #31008d;
   border-right: 6px solid #31008d;
   border-radius: 20%;
-  margin: 15rem 1rem;
+  margin: 8rem 1rem;
 }
 .student-details{
   margin:1rem 15%;
@@ -194,7 +131,7 @@ h3{
   border-width:5px;
   border-color: #a6a6a6;
   border-radius: 7%;
-  box-shadow: 5px 10px #e0dfdf;
+  box-shadow: 5px 10px #b4b4b4;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -226,7 +163,7 @@ h4 {
   margin-left:17%;
 }
 .due-date{
-  margin:1rem 0;
+  margin:2rem 0;
   background-color: #40b3f6;
   color: #fff;
   font-size: 30px;
@@ -258,12 +195,10 @@ h4 {
   background:transparent;
  margin:1rem 2rem;
 }
-.content{
-  /* display: none; */
-  color:black;
+.content {
+  display: none;
   height:150px;
   overflow: scroll;
-
 }
 .flip{
   padding: 0;
@@ -293,10 +228,7 @@ h4 {
   margin:0rem 0rem;
   color: #31008d;
   font-size: 25px;
-
+  padding:0.75 4.2rem;
   margin-bottom: 2rem;
 
-}
-.comment{
-  color: black;
 }

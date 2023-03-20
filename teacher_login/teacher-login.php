@@ -2,8 +2,8 @@
  
  $host = "localhost";  
  $user = "root";  
- $password = '';  
- $db_name = "javatpoint";  
+ $password = 'jayesh@2512';  
+ $db_name = "miniproject";  
    
  $con = mysqli_connect($host, $user, $password, $db_name);  
  if(mysqli_connect_errno()) {  
@@ -11,27 +11,30 @@
  }
     //connection code ends
     $username = $_POST['t_user'];  
-    $tPassword = $_POST['t_pass'];  
+    $Password = $_POST['t_pass'];  
    
         //to prevent from mysqli injection  
         $username = stripcslashes($username);  
-        $tPassword = stripcslashes($tPassword);  
+        $Password = stripcslashes($Password);  
         $username = mysqli_real_escape_string($con, $username);  
-        $tPassword = mysqli_real_escape_string($con, $tPassword);  
+        $Password = mysqli_real_escape_string($con, $Password);  
         
      
 
-        $sql = "select * from guide where username = '$username' and tPassword = '$tPassword'";  
+        $sql = "SELECT * from grouplog 
+                INNER JOIN guidelogin ON grouplog.guide_username = guidelogin.guide_username 
+                where guidelogin.guide_username='$username' and guide_password='$Password' ;  
+                ";  
         $result = mysqli_query($con, $sql);  
         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
-        $count = mysqli_num_rows($result);  
+        $count = mysqli_num_rows($result);
 
-        if($count == 1){  
-           header("location:t_dashboard.html?username='$username'");
+        if($count!=0){  
+           $guide_username=$row['guide_username'];
+           header("location:groupOptions.php?username='$guide_username'");
         }  
         else{  
-            print '<h1>incorrect username or password</h1><br><a href="login.html" style="font-size:25px;">Try again</a>';
-           
+            print '<h1>incorrect username or password</h1><br><a href="login.html" style="font-size:25px;">Try again </a>';   
         }     
         
 

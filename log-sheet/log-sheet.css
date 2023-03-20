@@ -1,0 +1,55 @@
+img.header{
+    margin:0% 25%;
+    height: 100px;
+    width:50%;
+}
+.title{
+    margin:auto 5%;
+    font-size: 20px;
+}
+.guide{
+    font-size: 20px;
+    margin-left: 20%;
+}
+table, th, td {
+    border:1px solid black;
+    font-size: 20px;   
+  }
+th{
+    background-color: lightgrey;
+}
+td{
+    font-size: 15px;
+
+}
+table{
+    width: 100%;
+    height: 30rem;
+    margin-top: 1%;
+}
+.task{
+    width: 23%;
+    max-width: 23%;
+    padding-left: 10px;
+}
+.student-name{
+    text-align: left;
+    width: 8%;
+}
+.guide{
+    width:8%;
+}
+.date{
+    width: 7.5%;
+    text-align: center;
+}
+.remarks{
+    width: 18%;
+    max-width: 18%;
+}
+.sheet{
+    background-color: white;
+    color: #48249a;
+    margin-left: 40%;
+    margin-top: 0.5rem;
+  }

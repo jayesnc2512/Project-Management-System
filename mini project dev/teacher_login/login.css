@@ -1,0 +1,117 @@
+.navigation-bar{
+    margin:0 20%;
+}
+.teacher-login{
+    background-image: url(teacher_login.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navbar{
+    width: 100%;
+    top:0px;
+    padding: 0;
+    background-color: #ca97f4;
+}
+
+nav{
+    background-color:#e5e7fc;
+
+}
+.brand-name{
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+}
+.nav-item{
+    padding: 0 0.75rem;
+}
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    color: #31008d;
+}
+.title-page{
+    background-color: #e6e7fe;
+}
+.title{
+    padding: 20% 25% 19%;
+    margin:0;
+    font-family: 'Teko', sans-serif;
+    color: #31008d;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px #48249a;
+}
+
+
+.login-box{
+    padding-top: 1rem ;
+    padding-bottom: 0;
+    padding-left: 3rem;
+    margin:auto;
+    width: 23rem;
+    /* border-style: solid;
+    border-width: 7px;
+    border-radius: 5%; */
+}
+hr{
+    margin:0;
+}
+.student-creds{
+    width:20rem;
+    background-color: #e6e7fe;
+}
+.void-top{
+    height: 5rem;
+}
+.void-bottom{
+    height: 40rem;
+}
+.login-button{
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    background-color: #31008d;
+    font-family: 'Montserrat', sans-serif;
+    color: #e6e7fe;
+    padding: 0 4rem;
+    margin:2rem 0rem;
+    border: none;
+}
+h3{
+    text-align: center;
+    color: #31008d;
+    margin: 2rem 0rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+}
+.pressed{
+    border-radius: 2rem;
+    border-color: #31008d;
+    border-width: 2px;
+    font-size: 1.2rem;
+    background-color: #e6e7fe;
+    font-family: 'Montserrat', sans-serif;
+    color: #31008d;
+    padding: 0 4rem;
+    margin:2rem 2rem;
+    border: none;
+}
+@media (max-width:500px) {
+    .student-creds{
+        width: 10rem;
+        background-color: #e6e7fe;
+        margin-left: 2rem;
+    }
+    .username{
+        margin-left: 2rem;
+    }
+    .login-button{
+        border-radius: 2rem;
+        font-size: 1.2rem;
+        background-color: #31008d;
+        font-family: 'Montserrat', sans-serif;
+        color: #e6e7fe;
+        padding: 0 2rem;
+        margin:2rem 2rem;
+        border: none;
+    }
+}

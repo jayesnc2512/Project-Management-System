@@ -1,0 +1,64 @@
+body{
+    background-image: url(indexbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.navigation-bar{
+    margin:0 20%;
+}
+
+nav{
+    background:transparent;
+
+}
+.brand-name{
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    color: #ca97f4;
+}
+
+.nav-item{
+    padding: 0 0.75rem;
+}
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.title-page{
+    background-color: #e6e7fe;
+}
+.title{
+    padding: 20% 25% 19% 20%;
+    margin:0;
+    width: 20%;
+    font-family: 'Teko', sans-serif;
+    color: #40b3f6;
+    text-align: "left";
+    font-size: 100px;
+    text-shadow: 2px 2px #48249a;
+}
+/* C:\xampp\htdocs\23-1submit */
+.student-creds{
+    width:15rem;
+    background-color: #e6e7fe;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+}
+@media (max-width:900px) {
+    .nav-menu{
+        background-color: #40b3f6;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-left: 20px;
+        color: white;
+        border-radius: 2%;
+    }
+    .brand-name{
+        opacity: 90%;
+    }
+    
+}
