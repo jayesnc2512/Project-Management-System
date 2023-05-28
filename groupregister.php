@@ -25,6 +25,8 @@
         $sql = "INSERT INTO grouplog (name_1, rollno_1, name_2, rollno_2, name_3, rollno_3, name_4, rollno_4) VALUES ('$name1','$rollno1',
             '$name2','$rollno2','$name3','$rollno3','$name4','$rollno4')";
          $con->query($sql)==true;
+         header("location:index.html");
+;
 
        
         

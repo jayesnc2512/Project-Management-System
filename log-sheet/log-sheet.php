@@ -10,7 +10,7 @@ if(mysqli_connect_errno()) {
 }
 // session_start();
 $username = $_GET['username'];
-$sql="SELECT * FROM grouplog WHERE username_g = '$username'";
+$sql="SELECT *,guidelogin.guide_name FROM grouplog inner join guidelogin on grouplog.guide_username=guidelogin.guide_username WHERE username_g = '$username'";
 $result = mysqli_query($con,$sql); 
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC); 
 

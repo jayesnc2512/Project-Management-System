@@ -137,6 +137,12 @@ $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
                 <?php echo $row['name_4'];?>
                 </div>
             </div>
+
+            <form action="../log-sheet/logsheet_entry.php?username=<?php echo $username?>" method="post">
+            <button class="sheet" type="submit">Get Interaction sheet
+            </button>
+            </form>
+
             <div class="vl">
                 <div class="project-details">
                 <div class="row">

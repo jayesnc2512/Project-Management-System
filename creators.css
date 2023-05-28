@@ -1,0 +1,197 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+body {
+    background-image: url(indexbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .navigation-bar{
+    margin-top: 0px;
+    /* margin: 10 20%; */
+    padding: 20px;
+    backdrop-filter: blur(50px);
+  }
+
+  nav{
+    background:transparent;
+  }
+  .brand-name{
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    color: #40b3f6;
+  }
+  .brand-name:hover{
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    color: #ca97f4;
+  }
+  .nav-item{
+    padding: 0 0.75rem;
+  }
+  .nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(16, 15, 15);
+  }
+  /* Add a container to hold content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* container 2 */
+  .container_2{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Add a section for the creator profiles */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 200px;
+  }
+  
+  /* Add styling for creator profile cards */
+  .creator-card {
+    transform:scale(100%,100%);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 60px;
+    width: calc(33.33% - 20px);
+  }
+  .creator-card:hover {
+    transform:scale(105%,105%);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 60px;
+    width: calc(33.33% - 20px);
+  }  
+  /* Add styling for creator profile images */
+  .creator-img {
+    border-radius: 50%;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: block;
+    height: 120px;
+    margin: 0 auto 10px;
+    width: 120px;
+  }
+  .creator-img:hover{
+    border-radius: 45%;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    display: block;
+    resize: both;
+    height: 120px;
+    margin: 0 auto 10px;
+    width: 120px;
+    /* backdrop-filter: blur(50px); */
+  }
+  
+  /* Add styling for creator profile names */
+  .creator-name {
+    font-size: 1.2rem;
+    font-style: oblique;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Add styling for creator profile descriptions */
+  .creator-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: baseline;
+  }
+  .navbar{
+    padding: 0%;
+    width: 100%;
+    position: fixed;
+  }
+  @media (max-width:900px) {
+    .nav-menu{
+    background-color: #40b3f6;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 20px;
+    color: white;
+    border-radius: 2%;
+  }
+    .brand-name{
+    opacity: 90%;
+    }
+  }
+  .socio i {
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    font-size: 32px;
+    color: #0088ff;
+    text-align: center;
+    transform: scale(100%,100%);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0.65;
+  }
+  .socio i2 {
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    transform: scale(100%,100%);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0.65;
+  }
+  .socio i3 {
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    font-size: 32px;
+    color: #ff00ea;
+    text-align: center;
+    transform: scale(100%,100%);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0.65;
+  }
+  .socio a {
+    text-decoration: none;
+  }
+  .socio i:hover {
+    transform: scale(105%,105%);
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  .socio i2:hover {
+    transform: scale(105%,105%);
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .socio i3:hover {
+    transform: scale(105%,105%);
+    opacity: 1;
+    color: #8c00ff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .socio figcaption {
+    width: 100%;
+    padding: 15px 25px;
+    position: absolute;
+    left: 17.5%;
+    top: 67%;
+  }
